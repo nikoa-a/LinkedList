@@ -12,6 +12,16 @@ public class Main {
         list.add(50);     
         list.add(3);
         System.out.println(list);
+   
+        System.out.println(list.find(1));
+        System.out.println(list.find(666));
+
+        System.out.println(list.get(3));
+
+        list.remove(50);
+        list.remove(1);
+
+        System.out.println(list);
     }
     
 }
