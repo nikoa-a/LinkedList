@@ -8,4 +8,11 @@ Use git clone.
 
 ## Usage
 
-Open with your favourite IDE.
+```
+LinkedList list = new LinkedList();
+list.add(int value);
+list.remove(int value);
+list.find(int x); // true or false
+list.get(int index); // element in index or -1
+list.toString(); // START -> element1 -> element2 -> END
+```
