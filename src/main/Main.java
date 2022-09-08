@@ -6,8 +6,11 @@ public class Main {
         
         LinkedList list = new LinkedList();
 
+        list.add(420);
         list.add(1);
-
+        list.add(69);
+        list.add(50);     
+        list.add(3);
         System.out.println(list);
     }
     
